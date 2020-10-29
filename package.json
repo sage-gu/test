@@ -1,0 +1,11 @@
+{
+ 
+  "scripts": {
+    "test": "jest",
+    "test1": "export APP_NAME=mirus JEST=true; jest -u -c=./jest.config.json --verbose --collectCoverage"
+  },
+ 
+  "devDependencies": {
+    "jest": "^26.6.1"
+  }
+}
