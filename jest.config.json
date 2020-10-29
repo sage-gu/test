@@ -1,0 +1,38 @@
+{
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/",
+      "/scripts/",
+      "/dist/",
+      "<rootDir>/tests/",
+      "/config/",
+      "/apps/",
+      "/entity/",
+      "/data/",
+      "/bdteam/",
+      "/policy/",
+      "/graphql/",
+      "/static/"
+    ],
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/scripts/",
+      "/dist/",
+      "<rootDir>/tests/",
+      "/config/",
+      "/apps/",
+      "/entity/",
+      "/data/",
+      "/bdteam/",
+      "/policy/",
+      "/graphql/",
+      "/static/"
+    ],
+    "coverageReporters": [
+      "clover",
+      "cobertura"
+    ],
+    "collectCoverage": true,
+    "verbose": true
+  }
+  
