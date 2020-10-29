@@ -1,11 +1,11 @@
 <?xml version="1.0" ?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage lines-valid="8" lines-covered="6" line-rate="0.75" branches-valid="0" branches-covered="0" branch-rate="1" timestamp="1603964298147" complexity="0" version="0.1">
+<coverage lines-valid="7" lines-covered="6" line-rate="0.8571" branches-valid="0" branches-covered="0" branch-rate="1" timestamp="1603964773195" complexity="0" version="0.1">
   <sources>
     <source>/Users/sagegu/Documents/GitHub/sage/test</source>
   </sources>
   <packages>
-    <class name="substract.js" filename="substract.js" line-rate="0.5" branch-rate="1">
+    <class name="substract.js" filename="substract.js" line-rate="0.6667000000000001" branch-rate="1">
       <methods>
         <method name="substract" hits="1" signature="()V">
           <lines>
@@ -17,17 +17,11 @@
             <line number="7" hits="0"/>
           </lines>
         </method>
-        <method name="substracte" hits="0" signature="()V">
-          <lines>
-            <line number="11" hits="0"/>
-          </lines>
-        </method>
       </methods>
       <lines>
         <line number="4" hits="1" branch="false"/>
         <line number="8" hits="0" branch="false"/>
-        <line number="12" hits="0" branch="false"/>
-        <line number="14" hits="1" branch="false"/>
+        <line number="10" hits="1" branch="false"/>
       </lines>
     </class>
     <class name="sum.js" filename="sum.js" line-rate="1" branch-rate="1">
